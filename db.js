@@ -2,7 +2,6 @@ import  pg from 'pg';
 import {reject} from "bcrypt/promises.js";
 const{Pool}=pg;
 
-
 let localPoolConfig = {
     user:'luba',
     password:'admin',

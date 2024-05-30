@@ -1,6 +1,5 @@
 import {jwtDecode} from "./jwt-decode.js";
 
-
 let accessToken = '';
 //let api_url = 'https://jwt-pg-morganpage-tech.herokuapp.com/api';
 let api_url = '/api';//Will need to make this explicit if front-end on different server
