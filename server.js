@@ -8,7 +8,6 @@ import usersRouter  from "./routes/users-routes.js";
 import authRouter from "./routes/auth-routes.js";
 
 
-
 dotenv.config();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();

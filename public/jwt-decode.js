@@ -9,7 +9,6 @@ function b64DecodeUnicode(str) {
         })
     );
 }
-
 function base64_url_decode(str) {
     var output = str.replace(/-/g, "+").replace(/_/g, "/");
     switch (output.length % 4) {

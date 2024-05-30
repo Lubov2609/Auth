@@ -12,6 +12,7 @@ user_password TEXT NOT NULL
 INSERT INTO users(user_name,user_email,user_password) VALUES ('Bob','bob@email.com','bob');
 INSERT INTO users(user_name,user_email,user_password) VALUES ('Fred','fred@email.com','fred');
 
+
 --psql -u postgres
 --\c jwttutorial
 --\ dt

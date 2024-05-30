@@ -21,7 +21,6 @@ router.post("/login", async (req, res) => {
         let tokens = jwtTokens(users.rows[0]);
        res.cookie('refresh_token',tokens.refreshToken,{httpOnly:true});
         res.json({tokens});
-
     }catch(err) {}
 res.status(401).json({error:" Invalid Credentials"});
 });
